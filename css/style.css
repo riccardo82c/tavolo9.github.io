@@ -1,0 +1,44 @@
+* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+}
+.clearfix::after {
+		content: "";
+		clear: both;
+		display: table;
+}
+
+body {
+	background-color: #ece4d8;
+	
+}
+
+.container {
+	margin: 0 auto;
+}
+
+header {
+	position: relative;
+}
+
+h1 {
+	position: absolute;
+	top: 30px;
+	color: #ece4d8;
+}
+
+.quadro {
+	  box-shadow: 0 14px 28px rgba(0,0,0,0.50), 0 10px 10px rgba(0,0,0,0.50);
+	
+}
+
+
+
+.text {
+	text-align: justify;
+	color: #5b7f98;
+	font-size: 18px;
+	font-weight: 600;
+}
+
