@@ -36,9 +36,22 @@ h1 {
 
 
 .text {
-	text-align: justify;
+	
+	text-align: center;
 	color: #5b7f98;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 600;
+}
+
+.first-letter {
+	
+	font-size: 26px;
+	color: #468f79;
+	font-style: italic;
+	
+}
+
+.cuori {
+	max-height: 60px;
 }
 
